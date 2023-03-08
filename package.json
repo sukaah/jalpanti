@@ -1,0 +1,28 @@
+{
+  "name": "jalpanti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap && lerna exec npm install",
+    "build": "lerna exec npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukaah/jalpanti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukaah/jalpanti/issues"
+  },
+  "homepage": "https://github.com/sukaah/jalpanti#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "rimraf": "~4.3.1"
+  },
+  "dependencies": {}
+}
