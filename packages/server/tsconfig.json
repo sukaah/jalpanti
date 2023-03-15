@@ -1,0 +1,8 @@
+{
+    "extends":"../../tsconfig",
+    "compilerOptions": {
+        "outDir": "./dist",     
+        "moduleResolution": "node",
+        "module": "commonjs",     
+    }
+}
